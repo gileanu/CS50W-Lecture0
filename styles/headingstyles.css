@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+h2 {
+    color: aquamarine;
+    text-align: center;
+}
+h3 {
+    color: blanchedalmond;
+    text-align: center;
+}
+#head_one {
+    color: aqua;
+    text-align: center;
+}
+.head_all {
+    color: chocolate;
+    text-align: center;
+}
+h1, h2, h3, h4, h5 ,h6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

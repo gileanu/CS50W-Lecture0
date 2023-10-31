@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <style>
+        .main-frm {
+            display: flex;
+            flex-direction: column;
+            max-width: 200px;
+        }
+        .main-frm input {
+            margin: 5px 5px;
+        }
+    </style>
+    <form>
+        <div class="main-frm">
+            <input type="text" name="first_name" placeholder="First Name">
+            <input type="text" name="last_name" placeholder="Last Name">
+            <input type="password" name="urs_psw" placeholder="Password">
+            <input type="submit">
+        </div>
+    </form>
+    <form>
+        <div class="favcolor">
+            <span class="favcolortitle">Favorite Color?</span>
+            <input type="radio" name="favColor" value="green"> Green
+            <input type="radio" name="favColor" value="blue"> Blue
+            <input type="radio" name="favColor" value="yellow"> Yellow
+            <input type="radio" name="favColor" value="other"> Other
+        </div>
+    </form>
+    <form>
+        <div class="countrylist">
+            <input list="countries" name="country" placeholder="Your country">
+            <datalist id="countries">
+                <option value="America"></option>
+                <option value="Romania"></option>
+                <option value="Antarctica"></option>
+                <option value="Other"></option>
+            </datalist>
+        </div>
+    </form>
+</body>
+</html>
